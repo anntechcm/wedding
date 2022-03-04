@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>AKUMEOW & JUDY's Wedding Website</title>
+    <link rel="stylesheet"type="text/css"href=layout.css/>
+</div>
+<style>
+.wrap{
+	max-width: 1200px;
+	margin: 0 auto; 
+}
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+.header{
+	padding-bottom: 1em;
+	position: relative;
+}
+
+.logo a{
+	float:left;
+	display: block;
+    font-size:20px;
+
+
+}.menu-list{
+	float:right;
+}
+.menu-list li{
+	float:left;
+}
+.menu-list a{
+	display: block;
+	font-weight: bold;
+	padding:1em;
+}
+.showmenu{
+	display: none;
+	float: right;
+}
+@media(max-width: 600px){
+	.menu-list{		
+		max-height: 0;
+		overflow: hidden;
+		position: absolute;
+		right: 0;
+		left: 0;
+		top:67px;
+		z-index:100;
+    transition: all 2.5s;
+	}
+	.menu-list li{
+		float:none;
+	}
+	.showmenu{
+		display: block;
+	}
+	.menu-show .menu-list{
+		max-height: 336px; 
+	}
+}
+.item{
+    flex:none;
+    margin-right:10px;
+    font-size:20px;
+}
+
+.welcome{
+    background-color:#B2DFF9;color:white; 
+}
+.middle{
+    font-weight:bold;font-size:30px;
+    padding:150px;text-align:end;
+    max-width:300px;
+}
+.photo{
+  margin-bottom: 20px;
+
+}
+main{
+    display:flex;flex-wrap: wrap;
+    justify-content:center;
+    margin:auto;
+    max-width:1200px;
+}
+.container{
+    display:flex;margin:auto;
+    max-width:200px;
+}
+.img{
+    width:180px;
+    margin-right:5px;
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin:auto;
+    background-color:#B2DFF9;
+    align-items: center;
+    
+}
+.text{   
+    font-family: "Noto Sans","Microsoft JhengHei";
+    text-align: center;
+    font-size: 20;
+    width:250px; 
+    margin:auto;
+    background-color#B2DFF9;
+    vertical-align: top;
+    margin-top:0px;
+    margin-bottom:20px;
+    margin-right:10px;
+    margin-left:10px;
+    text-decoration: none;
+}
+
+
+@media (max-width:1200px) {
+    .container{width:45%;
+}
+@media (max-width:600px) {
+    .container{width:90%}
+}
+</style>
+  <div class="wrap">
+
+<div class="welcome">
+<div class="middle">AKUMEOW & JUDY 2022.3.20
+  <img src="wdphoto.png"width=800px/>
+</div>
+</div>
+<br></br>
+
+  </head>
+  <body>
+  <main>
+    <div class="comtainer">
+      <div class=img>
+        <a href="transportation.html"><img src="car-solid.svg"width=180px height=180px/></a></div>
+        <div class=text style:style= cursor:hand " onmouseover="javascript:this.style.color='#B2DFF9'" 
+        onmouseout="javascript:this.style.color='black'" onclick="location.href='transportation.html'">交通資訊</div>
+    </div>
+    <div class="comtainer">
+      <div class=img>
+        <a href="pickup.html"> <img src="bus.png"width=180px height=180px/></a></div>
+          <div class=text style:style= cursor:hand " onmouseover="javascript:this.style.color='#B2DFF9'" 
+        onmouseout="javascript:this.style.color='black'" onclick="location.href='pickup.html'">接駁車</div>
+    </div>
+    <div class="comtainer">
+      <div class=img>
+        <a href="location.html">  <img src="location.png"width=180px height=180px/></a></div>
+          <div class=text style:style= cursor:hand " onmouseover="javascript:this.style.color='#B2DFF9'" 
+        onmouseout="javascript:this.style.color='black'" onclick="location.href='location.html'">環境介紹</div>
+    </div>
+    <div class="comtainer">
+      <div class=img>
+        <a href="timeline.html"> <img src="calendar-alt-regular.svg"width=180px height=180px/></a></div>
+          <div class=text style:style= cursor:hand " onmouseover="javascript:this.style.color='#B2DFF9'" 
+        onmouseout="javascript:this.style.color='black'" onclick="location.href='timeline.html'">活動時間表</div>
+    </div>
+    <div class="comtainer">
+      <div class=img>
+        <a href="groom.html"> <img src="user-tie-solid.svg"width=180px height=180px/></a></div>
+        <div class=text style:style= cursor:hand " onmouseover="javascript:this.style.color='#B2DFF9'" 
+        onmouseout="javascript:this.style.color='black'" onclick="location.href='groom.html'">男方座位表</div>
+    </div>
+    <div class="comtainer">
+      <div class=img>
+        <a href="bride.html"> <img src="dress.png"width=180px height=180px/></a></div>
+          <div class=text style:style= cursor:hand " onmouseover="javascript:this.style.color='#B2DFF9'" 
+        onmouseout="javascript:this.style.color='black'" onclick="location.href='bride.html'">女方座位表</div>
+    </div>
+    
+    
+  </main>
+  </body>
+	    </html>
